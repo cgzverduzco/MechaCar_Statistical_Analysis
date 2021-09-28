@@ -66,23 +66,79 @@ But this calculation is wrong since it is averaged over 3 manufacturing lot. Two
 _________________________
 ## T-Tests on Suspension Coils
 
-### T-test Total
+The level of statistical significance is often expressed as a p-value between 0 and 1. The smaller the p-value, the stronger the evidence that you should reject the null hypothesis.
+
+- A small p (≤ 0.05), reject the null hypothesis. This is strong evidence that the null hypothesis is invalid.
+- A large p (> 0.05) means the alternate hypothesis is weak, so you do not reject the null.
+
+For the population, the p-value is 0.06, this suggests there is NOT significant difference between the means of 1500 and the mean population. Not reject null hypothesis, the alternative hypothesis is weak.
+
+### T-test Total Population
 ![alt text](img/ttesttotal.png)
 
-### T-test Lot-1
+For the sample Lot-1, the p-value is 1, Theres is no difference between the means.
+### T-test Lot-1 Sample
 ![alt text](img/ttest1.png)
 
-### T-test Lot-2
+For the sample Lot-2, the p-value is 0.06, this suggests there is NOT significant difference between the means of 1500 and the sample mena. Not reject null hypothesis, the alternative hypothesis is weak.
+### T-test Lot-2 Sample
 ![alt text](img/ttest2.png)
 
-### T-test Lot-3
+For the sample Lot-3, the p-value is 0.04, this suggests there is a significant diference between the means of the 1500. and the sample mean. Reject null hypothesis.
+### T-test Lot-3 Sample
 ![alt text](img/ttest3.png)
+
 
 _________________________
 
 ## Study Design: MechaCar vs Competition
 
-1. What metric or metrics are you going to test?
-2. What is the null hypothesis or alternative hypothesis?
-3. What statistical test would you use to test the hypothesis? And why?
-4. What data is needed to run the statistical test?
+1. Metrics to test
+- Cost 
+- City fuel efficiency
+- Highway fuel efficiency 
+- Useful life
+- Type
+- Model
+- Cilinders
+- Robberies
+
+
+2. Null hypothesis 
+- Truck fuel efficiency is positive related to cylinders and horsepower in city
+- Car fuel efficiency is positive related to cylinders and horsepower in city
+- Truck fuel efficiency is positive related to cylinders and horsepower in highway
+- Car fuel efficiency is positive related to cylinders and horsepower in highway
+- It's easier to steal an old truck than a new one
+- It's easier to steal an old car than a new one
+
+
+3. Alternative hypothesis
+- Truck fuel efficiency is negative related to cylinders and horsepower in city
+- Car fuel efficiency is negative related to cylinders and horsepower in city 
+- Truck fuel efficiency is negative related to cylinders and horsepowerin highway
+- Car fuel efficiency is negative related to cylinders and horsepower in highway
+- It's not easier to steal an old truck than a new one
+- It's not easier to steal an old car than a new one
+
+
+4. Statistical test
+- Two samples t-test
+        For robberies info
+- Simple linear regression 
+        For efficiency fuel info
+- Multiple linear regression
+        For efficiency fuel info
+
+
+
+5. What data is needed to run the statistical test?
+This information from MecharCars and the competition, 3 years.
+- Cost 
+- City fuel efficiency
+- Highway fuel efficiency 
+- Useful life
+- Type
+- Model
+- Cilinders
+- Robberies 
