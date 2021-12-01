@@ -1,6 +1,4 @@
 # MechaCar_Statistical_Analysis
-Module 15. Bootcamp
-
 
 ## Linear Regression to Predict MPG
 
