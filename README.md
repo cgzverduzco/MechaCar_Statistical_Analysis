@@ -72,7 +72,7 @@ The level of statistical significance is often expressed as a p-value between 0 
 For the population, the p-value is 0.06, this suggests there is NOT significant difference between the means of 1500 and the mean population. Not reject null hypothesis, the alternative hypothesis is weak.
 
 ### T-test Total Population
-![alt text](img/ttesttotal.png)
+![alt text](img/ttestTotal.png)
 
 For the sample Lot-1, the p-value is 1, Theres is no difference between the means.
 ### T-test Lot-1 Sample
